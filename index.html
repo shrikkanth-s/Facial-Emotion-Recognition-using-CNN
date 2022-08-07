@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='styles/index.css') }}"
+    />
+    <!-- <link rel="stylesheet" type="text/css" href="index.css" /> -->
+
+    <title>Real Time Emotion Detection</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <h1>Facial Emotion Recognition</h1>
+      <img
+        class="logo"
+        src="{{ url_for('static',filename='logo.png') }}"
+        alt=""
+      />
+    </nav>
+
+    <div class="content">
+      <img class="video" src="{{ url_for('video_feed') }}" width="50%" />
+    </div>
+
+    <footer>
+      <div class="done">
+        <h3>Done by</h3>
+        <ul>
+          <li class="name n1">Arjun J (123003023)</li>
+          <li class="name n1">Gurusaran S (123003074)</li>
+          <li class="name n1">Shrikkanth S (123015095)</li>
+        </ul>
+      </div>
+      <div class="right">
+        <div class="guide">
+          <h3>Under the guidance of,</h3>
+          <p class="name">Dr Kannan K, Professor, SASTRA deemed University.</p>
+        </div>
+        <div class="panel">
+          <h3>Panel Members:</h3>
+          <ul>
+            <li class="name">Dr Saravanan P</li>
+            <li class="name">Prof Ananthakrishnan S</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

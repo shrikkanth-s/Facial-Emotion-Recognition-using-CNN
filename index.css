@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+/* base styles */
+
+body {
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  font-family: Quicksand;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  border-bottom: 1px solid #767676;
+}
+.navbar h1 {
+  color: #f1356d;
+  font-weight: 1, 900;
+  font-size: 1.7rem;
+}
+
+.logo {
+  max-height: 70px;
+  margin-left: auto;
+}
+
+.content {
+  /* max-width: 900px; */
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer {
+  width: 900px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  color: #f1356d;
+  left: calc(50% - 470px);
+  padding: 20px 10px;
+  border-top: 1px solid #767676;
+  display: flex;
+}
+
+.done {
+  padding-right: 180px;
+  border-right: 1px solid #767676;
+}
+
+.name {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.right {
+  margin-left: auto;
+  font-size: 0.9rem;
+}
+
+.guide {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #767676;
+}
+
+.panel {
+  padding-top: 10px;
+}
+
+.n1 {
+  font-size: 1.5rem;
+}
+
+.video {
+  height: 285px;
+  width: 532px;
+  border-radius: 13px;
+}
